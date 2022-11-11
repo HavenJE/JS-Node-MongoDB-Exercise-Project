@@ -1,0 +1,31 @@
+The HTML section
+
+- when we have a anchor tag for a link, you could use the target attribute e.g. target=" " and set it to "\_blank" in order to have the link opens up the page in a different tab rather than opening up the page from your site.
+
+- To add an email link, do href="mailto:sample@sample.com"
+
+- use iframe tag to add a web page inside your web page e.g. <iframe src="http://google.com" style="border: none" - this style is going to remove the line around the webpage.
+
+Working of Forms:
+
+- when working in Forms where we need to create label tags and input tags, in order to attach a label tag to a specific input tag, we use the attribute for=" " on the label tag for that specific input tag name attribute e.g. input tag attribute's name="username", So, the for attribute on the label tag would be for="username".
+
+- whey adding an input type="submit" and we need to change the word to e.g. send, we do that by adding the value="send" attribute.
+
+CSS Section
+
+- CSS stands for cascading style sheet
+- using the asterisk (\*) { } will take effects on all CSS elements
+
+- grouping selector e.g. h1, p { color: green; } any h1 & P will get the color green
+
+- using % for height & width is better than using px units, because it takes into account the screen of different devices
+
+- when it comes to an anchor tag a href, if you want to remove the underline, use the CSS attribute
+  => { text-decoration: none; }
+
+- To give a text a tab space, you could actually use
+  => text-indent: 30px
+
+- to spread out letter of the same words, use
+  => letter-spacing: 30px
